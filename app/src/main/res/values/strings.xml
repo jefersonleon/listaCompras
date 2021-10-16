@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="titulo">Lista de Compras</string>
+    <string name="item1">Arroz  R$  2,69</string>
+    <string name="item2">Leite  R$  5,00</string>
+    <string name="item3">Carne  R$ 30,00</string>
+    <string name="item4">Feijão R$  7,00</string>
+    <string name="botao">TOTAL COMPRAS</string>
+    <string name="resultado">R$ ??,??</string>
+
+</resources>

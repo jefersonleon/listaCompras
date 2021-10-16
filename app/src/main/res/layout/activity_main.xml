@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkarroz"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+        android:text="@string/item1" />
+
+    <CheckBox
+        android:id="@+id/chkleite"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/item2" />
+
+    <CheckBox
+        android:id="@+id/chkcarne"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/item3" />
+
+    <CheckBox
+        android:id="@+id/chkfeijao"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+        android:text="@string/item4" />
+
+    <Button
+        android:id="@+id/btcalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/botao" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/resultado" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btarroz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Arroz" />
+
+        <Button
+            android:id="@+id/btfeijao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Feijão" />
+
+        <Button
+            android:id="@+id/btcarne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Carne" />
+
+        <Button
+            android:id="@+id/btleite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Leite" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgfotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/indisponivel" />
+
+
+</LinearLayout>
